@@ -1,4 +1,4 @@
-package arrays;
+package matrix;
 
 import java.util.List;
 
@@ -20,7 +20,6 @@ public class NumMatrix {
    static int[][] board = new int[matrix.length + 1][matrix[0].length + 1];
 
     public static void main(String[] args) {
-
         for (int row = 1; row < board.length; row++) {
             for (int col = 1; col < board[0].length; col++) {
                 board[row][col] = board[row][col-1]+ (board[row-1][col]- board[row-1][col-1]) +matrix[row-1][col-1];

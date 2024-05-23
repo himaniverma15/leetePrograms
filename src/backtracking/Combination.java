@@ -9,7 +9,7 @@ public class Combination {
         int[] array = new int[]{1, 2, 3, 4};
         Arrays.sort(array);
         List<List<Integer>> list = new ArrayList<>();
-        List permutations = dfs(array, list, new ArrayList<>(), 2, new ArrayList<Integer>());
+        List permutations = dfs(array, list, new ArrayList<>(), 3, new ArrayList<Integer>());
         permutations.stream().forEach(e -> System.out.println(e));
 
     }

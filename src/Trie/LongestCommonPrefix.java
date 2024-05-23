@@ -37,7 +37,6 @@ public class LongestCommonPrefix {
             root.endOfString = true;
         }
 
-
         StringBuilder longestPrefix = new StringBuilder();
 
 

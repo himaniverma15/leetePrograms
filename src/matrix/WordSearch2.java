@@ -1,4 +1,4 @@
-package backtracking;
+package matrix;
 
 import Trie.TrieNode;
 
